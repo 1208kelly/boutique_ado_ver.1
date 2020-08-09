@@ -50,7 +50,7 @@
                             {% if s %}
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                    <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
                                         <option value="xs">XS</option>
                                         <option value="s">S</option>
                                         <option value="m" selected>M</option>
@@ -85,6 +85,7 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
